@@ -8,6 +8,7 @@
 	position: sticky;
 	top: 0;
 	overflow: hidden;
+	z-index: 1;
 }
 
 .Navbar .Menus {
