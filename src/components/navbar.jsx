@@ -19,12 +19,12 @@ export default function Navbar() {
 				<Link to={'/products'}>
 					<p>Products</p>
 				</Link>
-				<Link to={'/about'}>
-					<p>About Us</p>
+				<Link to={'/admin/product/list'}>
+					<p>Admin</p>
 				</Link>
 			</div>
 			<div className="Icons">
-				<Link to={"/search"}>
+				<Link to={'/search'}>
 					<IoMdSearch className="icon" />
 				</Link>
 				<Link to={'/cart'}>
